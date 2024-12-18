@@ -1,0 +1,14 @@
+.container{
+    border: 5px solid black;
+}
+.nav{
+    background-color: darkcyan;
+
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: fff;
+    background-color:palegreen;
+}

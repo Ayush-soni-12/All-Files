@@ -1,0 +1,73 @@
+{
+    "products": {
+      "usb_adapters": {
+        "name": "USB-C to USB Adapter",
+        "price": 9.99,
+        "currency": "USD",
+        "brand": "Anker",
+        "ratings": {
+          "average_rating": 4.5,
+          "total_reviews": 5123
+        },
+        "posts": [
+          {
+            "image": "https://www.shutterstock.com/image-vector/usb-port-hand-drawn-mi-260nw-2486104877.jpg",
+            "likes": 200,
+            "comments": 17
+          }
+        ]
+      },
+      "wireless_mouse": {
+        "name": "Wireless Mouse",
+        "price": 14.99,
+        "currency": "USD",
+        "brand": "Logitech",
+        "ratings": {
+          "average_rating": 4.6,
+          "total_reviews": 8294
+        },
+        "posts": [
+          {
+            "image":"https://www.shutterstock.com/image-vector/realistic-3d-sleek-modern-white-260nw-2470493499.jpg",
+            "likes": 312,
+            "comments": 19
+          }
+        ]
+      },
+      "flash_drive": {
+        "name": "16GB USB Flash Drive",
+        "price": 6.99,
+        "currency": "USD",
+        "brand": "SanDisk",
+        "ratings": {
+          "average_rating": 4.7,
+          "total_reviews": 10325
+        },
+        "posts": [
+          {
+            "image": "https://images-cdn.ubuy.co.in/635b68d5da38641cb52f1c63-seedete-16gb-usb-flash-drives-usb.jpg",
+            "likes": 1065,
+            "comments": 200
+          }
+        ]
+      },
+      "phone_stand": {
+        "name": "Portable Phone Stand",
+        "price": 8.99,
+        "currency": "USD",
+        "brand": "Lamicall",
+        "ratings": {
+          "average_rating": 4.8,
+          "total_reviews": 6781
+        },
+        "posts": [
+          {
+            "image": "https://images.meesho.com/images/products/401494865/wajl4_512.webp",
+            "likes": 3000,
+            "comments": 41
+          }
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,30 @@
+ /* attributes selector */
+input[type ="text"]{
+    color: green;
+}
+input[type ="password"]{
+    color: red;
+}
+/* pseudo class
+:hover
+:active
+:checked
+:nth-of-type()
+*/
+input[type ="radio"]:checked + label{/* checked ka use hum radio aur checked type ke sath jayada  krte hai*/
+    color: red;
+    font-weight: bold;
+}
+/* psuedo elements
+::first-line
+::first-letter
+::selection
+ */
+
+
+p::first-line{
+    color: green;
+}
+p::selection{
+background-color: lightblue;
+}

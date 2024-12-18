@@ -1,0 +1,70 @@
+/* /* alpha mans - set the opacity for a color ranges from 0 to 1 
+.div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(250,0,0,1);
+    margin: auto;
+    margin-top: 10px;
+    transition: margin-top 2s linear 0.2s;
+    
+
+}
+/* opacity means - sets the opacity for the element ranges from 0 to 1 */
+/* .opacity {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    opacity: 0.5;
+} */
+/* Transition property  */
+/* .div:hover{
+    margin-top: 400px;
+} */ 
+
+
+
+/* .............................................transform property  ...............................*/
+
+section{
+    margin-top: 100px;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px;
+}
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+#one{
+    transform: rotate(45deg);
+    /* hum negative me bhi rotate kr skte hai */
+    
+}
+#two{
+    transform: scale(0.5);
+    /* hum x axis aur y axis do taraf se scale kr skte hai 
+    scale(x,y), scale(x),scale(y)
+    */
+}
+
+#three{
+    transform: translate(100px,100px);
+    /* translate ki help se hum div ko move kra skte hai 
+    hum chaie to kebal x axis ya phir y axis me bhi move kra skte hai 
+    */
+}
+#four{
+    transform: skew(30deg)
+}
+#six{
+    height: 200px;
+    width: 200px;
+}

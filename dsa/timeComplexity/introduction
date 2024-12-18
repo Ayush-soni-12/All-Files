@@ -1,0 +1,9 @@
+ ...............................big O Notation - upper bound (worst  case tc) ..........................  
+ mathematical formula  it is worst time complextiy- lim |f(n)|/g(n)<infinity
+                        n->infinity
+big omega - lower bound (best case tc)
+big theta - average bound (avg case tc)                       
+ ....................Space complextiy........................
+ Amount of extra Space occupied by an algorithm as a function of input size(n)
+ Space complextiy big data structure ko create krne se badti hai like(array ,vector ,2d array , etc)
+ 

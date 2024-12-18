@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> anchor elements</title>
+</head>
+<body>
+<!--     
+    <a href="https://google.com"> Google</a>
+    <img src="ironman.JPEG" alt="iron man " height="100px" width="100px">  -->
+    <!-- tables in html -->
+    <table>
+        <caption>Food Menu</caption>
+         <!-- tr tag is used for row -->
+        <tr>
+            <th>Food item </th>
+            <th> price</th>
+        </tr> 
+        <tr>
+            <td>biscuit </td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>dosa</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>idli</td>
+            <td>40</td>
+        </tr>
+
+    </table>
+
+    <!-- forms in html -->
+     <!-- action attribute is used to define what action needs to be performed when a form is submitted or where the form data should be sent
+       -->
+    <form action="/action">
+    <input type="text" placeholder="username">
+    <input type="password">
+    <input type="number">
+    <input type="time">
+    <input type="color">
+
+    <!-- label element represent a caption for an item in a user interface -->
+   <br>
+    <label>
+        Enter username:
+       <input type="text" placeholder="username">
+    </label>
+    <!-- we can also write label tag in different way -->
+   
+    <label for="password"> enter password</label>
+   <input type="password" id="password" placeholder="password">
+
+   <button type="submit">submit</button>
+   <button type="reset">reset</button>
+</form>
+
+<form action="https://www.google.com/search?">
+ 
+    <label for="search"> search </label>
+    <input type="text" placeholder="search item" id="search" name="q">
+   <button>search</button>
+</form>
+
+<form>
+    <input type="checkbox" name="age" id="age">
+    <label for="age"> I am 18</label>
+</form>
+<form action="/server">
+    <input type="radio" name="fruit" id="apple" value="apple">
+    <label for="apple">Apple</label>
+    <input type="radio" name="fruit" id="mango" value="Mango">
+    <label for="mango">mango</label>
+    <input type="radio" name="fruit" id="grapes" value="Grapes">
+    <label for="grapes">grapes</label>
+    <button >search</button>
+    <!-- select elements -->
+ 
+ Choose your profession
+ <select name="profession" id="profession">
+    <option value="stu">Student</option>
+    <option value="dev">developer</option>   
+</select>
+<button>search</button>
+<br>
+
+<!-- range element -->
+ <label for="vol">Select your volume level:</label>
+<input type="range" id="vol" min="0" max="100" name="val">
+<button>submit</button>
+
+
+</form>
+
+
+
+
+</body>
+</html>

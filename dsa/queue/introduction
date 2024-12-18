@@ -1,0 +1,2 @@
+queue is FIFO (first in first out ) data structure 
+queue operations - pop(dequeue) ,push(enqueue-) ,front 

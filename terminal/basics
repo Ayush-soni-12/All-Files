@@ -1,0 +1,45 @@
+command line -- any interface that is used by entering textual commands (gen. windows centric)
+terminal -- this is a type of command line \
+console -- a command -line interface used t work with your computer
+shell -- a program running on terminal
+ bash -- a popular shell on Mac os/ linux
+ z shell -- another shell (default)
+
+ // ................... basics commands .........................
+ ls =list files(show my files)
+ pwd =print working directory(where am i)
+ clear == clear screen
+ //////////////////////////////////////////////////////////////////////////////
+ .............................. only run on cmd ........................
+ copy con == to create a file (syntax - copy con filename.extension)
+ type == to display a content of file (syntax - type filename.txt)
+ ren == to change the name of the file(syntax - ren file1name file2name)
+  copy == to copy the file (syntax - copy file1name file2name )
+ del == to delete a file(syntax - del filename)
+md == to create a folder(syntax - md filename)
+rd == to delete a empty folder(syntax - rd filename)
+
+
+
+
+// .......................Navigation ........................
+ cd = change directory
+ cd .. = bapas jane ke liye
+ // ......................Paths in Navigation ...................
+ cd Desktop/Delta(relative  path)
+ cd /c/Users/sudhi/Desktop/Delta(absolute path)
+ / == root directory
+ ~ = home directory
+ // .................. Making directory .....................
+ mkdir == create a folder
+// ....................... flags ..................
+ flags -- flags are character  that we pass with commands to modify thier behaviour 
+manual command
+man ls - give info about ls command
+// ................. touch command .........................
+used to create files
+
+// .............. deleting files and folder .........................
+rm -- remove files
+rmdir -- removes empty folders
+rm-rf -- removes any folders

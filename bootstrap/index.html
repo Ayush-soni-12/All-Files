@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <button class="btn btn-primary"> click me</button>
+    <!-- we also add breakpoints in container class -->
+    <div class="container">
+        <h2>container</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, odio labore! Enim vel laudantium reprehenderit ad esse alias perspiciatis iste amet at aut, dolor minus voluptatum odit, adipisci maxime! Excepturi!
+        Molestiae fugit temporibus omnis nostrum possimus explicabo. Quisquam voluptatibus, culpa dolores, repudiandae non libero eligendi eaque possimus ratione eius reiciendis deleniti earum vel quam. Itaque corrupti voluptatem distinctio. Delectus, laudantium?
+        Nostrum voluptas magnam labore libero inventore, eius earum in perferendis tempora molestiae culpa eveniet esse numquam sequi ad suscipit quod at obcaecati ea provident praesentium molestias id doloremque. Perferendis, repudiandae?
+        Provident quasi magni earum ea quae, placeat suscipit maiores, eaque quibusdam pariatur delectus temporibus eius aliquid ipsum repellat perferendis praesentium, ipsa quod exercitationem veniam distinctio aperiam! Sed dolorum quisquam nihil.
+        Fuga ullam doloremque incidunt? Dolore delectus perspiciatis nihil aut nemo rem odit iste doloremque, dolorem est id voluptate ullam consequatur suscipit aliquid. Ullam iste eum dolores necessitatibus quia iure harum!
+        Aliquam rem quis maiores natus accusantium commodi reiciendis provident iste, deserunt, dolore illo. Autem odit, voluptatum, quidem officiis atque ut quas ipsam alias esse asperiores dicta accusamus aliquid minima repellat!
+        Optio suscipit quidem dolor corrupti quam dolores, animi libero tempora asperiores, autem quisquam nobis quaerat doloremque eveniet fugiat sunt consequuntur esse sint sapiente? Blanditiis non vero id a omnis repellat.
+        Placeat eius quis a earum, esse quidem numquam nemo inventore illo sunt aliquam dolores laborum quae nobis explicabo reiciendis qui temporibus velit ipsa voluptates iste? Sunt dignissimos laboriosam est ab?
+        Beatae, fugit eligendi facilis necessitatibus odio quibusdam, iure quo nostrum, commodi ab officiis voluptatum nobis quasi error dolores. Quaerat vitae voluptas aut officiis! Aut, suscipit ipsa? Illo alias dicta soluta.
+        Nihil fuga officia corporis dignissimos ex fugit itaque fugiat quis doloribus maxime aperiam asperiores iure sed autem repellendus voluptatem vel ipsum eligendi aspernatur id sapiente, molestiae odit. Similique, minus omnis?</p>
+    </div>
+    <button  class="btn btn-primary" disabled>Primary</button>
+<button  class="btn btn-secondary">Secondary</button>
+<button  class="btn btn-success">Success</button>
+<button  class="btn btn-success">Success</button>
+<button  class="btn btn-outline-danger btn-lg">Danger</button>
+<button  class="btn btn-outline-warning btn-sm">Warning</button>
+<button  class="btn btn-info">Info</button>
+<button  class="btn btn-light">Light</button>
+<button  class="btn btn-dark">Dark</button>
+
+<button  class="btn btn-link">Link</button>
+<!-- ------------------Badges--------------------- -->
+
+<h1>Example heading <span class="badge bg-danger">New</span></h1>
+
+<!-- we can also create a badge with buttons  -->
+ <br>
+ <button class="btn-btn primary">
+    followers
+    <span class="badge bg-danger">100+</span>
+ </button>
+
+ <span class="badge rounded-pill bg-primary">Primary</span>
+ <span class="badge rounded-pill bg-secondary">Secondary</span>
+ <span class="badge rounded-pill bg-success">Success</span>
+ <span class="badge rounded-pill bg-danger">Danger</span>
+ <span class="badge rounded-pill bg-warning text-dark">Warning</span>
+ <span class="badge rounded-pill bg-info text-dark">Info</span>
+ <span class="badge rounded-pill bg-light text-dark">Light</span>
+ <span class="badge rounded-pill bg-dark">Dark</span>
+ <br>
+ <br>
+
+ <button type="button" class="btn btn-primary position-relative">
+    Inbox
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+      99+
+      <span class="visually-hidden">unread messages</span>
+    </span>
+  </button>
+
+  <br><br><br>
+ <!-- ----------------------Alert------------------- -->
+
+ <div class="alert alert-danger">Download failed! please try again
+
+ </div>
+ <div class="alert alert-primary" role="alert">
+    A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+
+  <div class="alert alert-primary alert-dismissible" > Congratulation
+    <button class="btn-close" data-bs-dismiss="alert" ></button>
+  </div>
+
+  <!-- -----------------------button group--------------------- -->
+  
+  <div class="container">
+    <div class="btn-group">
+        <button class="btn btn-success">one</button>
+    <button class="btn btn-primary">two</button>
+    <button class="btn btn-danger">three</button>
+    </div>
+    <button class="btn btn-success">one</button>
+    <button class="btn btn-primary">two</button>
+    <button class="btn btn-danger">three</button>
+  </div>
+  <br>
+
+  <div class="btn-group" >
+    <input type="checkbox" class="btn-check" id="btncheck1" >
+    <label class="btn btn-outline-primary" for="btncheck1">Checkbox 1</label>
+  
+    <input type="checkbox" class="btn-check" id="btncheck2" >
+    <label class="btn btn-outline-primary" for="btncheck2">Checkbox 2</label>
+  
+    <input type="checkbox" class="btn-check" id="btncheck3" >
+    <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
+  </div>
+
+  <br>
+
+  <div class="btn-group" >
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio1"  >
+    <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+  
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" >
+    <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+  
+    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" >
+    <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+  </div>
+ 
+
+  <!-- ..............................navbar................................. -->
+
+  <div class="container mb-5">
+    <h2 class="py-3 text-center"> Bootstrap nav class </h2>
+   <div class="row py-3">
+    <div class="col">
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">About us</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">phone</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">contact us</a>
+        </li>
+      </ul>
+    </div>
+   </div>
+  
+  <!-- we can also use nav tag -->
+   
+  <div class="row">
+    <div class="col">
+      <!-- justify-content-center ka use krke middle me la skte hai 
+      flex-column ka bhi use kr skte hai  
+      -->
+      <nav class="nav nav-fill">
+        <a href="" class="nav-link">Home</a>
+        <a href="" class="nav-link"> About us</a>
+        <a href="" class="nav-link">Gallery</a>
+        <a href="" class="nav-link">Blog</a>
+      </nav>
+    </div>
+  </div>
+</div>
+ <div class="container mb-5">
+  <div class="row py-3">
+    <div class="col">
+
+  
+
+
+<nav class="navbar  navbar-expand-lg navbar-light bg-light">
+  <a href="" class="navbar-brand">Company Name </a>
+
+   <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myname">
+    <span class="navbar-toggler-icon"></span>
+   </button>
+
+   <div class="collapse navbar-collapse" id="myname">
+    <ul class="navbar-nav me-auto">
+      <li class="nav-item dropdown">
+        <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> Home</a>
+        <div class="dropdown-menu">
+          <a href="" class="dropdown-item"> lineOne</a>
+          <a href="" class="dropdown-item"> second</a>
+          <a href="" class="dropdown-item"> THree</a>
+
+        </div>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link"> Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link"> Home</a>
+      </li>
+    </ul>
+    <form class="d-flex" action="">
+      <input type="search" class="form-control me-sm-2" placeholder="search">
+      <button class="btn btn-outline-success my-2 my-sm-0">Search</button>
+    </form>
+    <!-- agr text likhna hai to  -->
+   <span class="navbar-text"> this is a text</span>
+
+   </div>
+   
+    
+  
+</nav>
+</div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
