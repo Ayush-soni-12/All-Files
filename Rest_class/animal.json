@@ -1,0 +1,146 @@
+{
+    "animals": [
+      {
+        "name": "Tiger",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/640px-Walking_tiger_female.jpg",
+        "scientific_name": "Panthera tigris",
+        "classification": {
+          "kingdom": "Animalia",
+          "phylum": "Chordata",
+          "class": "Mammalia",
+          "order": "Carnivora",
+          "family": "Felidae",
+          "genus": "Panthera",
+          "species": "tigris"
+        },
+        "habitat": {
+          "type": "Forest",
+          "regions": ["Asia", "India", "Southeast Asia", "Russia"]
+        },
+        "diet": {
+          "type": "Carnivore",
+          "main_foods": ["Deer", "Wild Boar", "Buffalo"]
+        },
+        "physical_characteristics": {
+          "average_height": "1 meter",
+          "average_length": "3.1 meters",
+          "average_weight": "220 kilograms",
+          "color": "Orange with black stripes"
+        },
+        "conservation_status": "Endangered"
+      },
+      {
+        "name": "Elephant",
+                "image": "https://cdn.britannica.com/02/152302-050-1A984FCB/African-savanna-elephant.jpg",
+        "scientific_name": "Loxodonta africana",
+        "classification": {
+          "kingdom": "Animalia",
+          "phylum": "Chordata",
+          "class": "Mammalia",
+          "order": "Proboscidea",
+          "family": "Elephantidae",
+          "genus": "Loxodonta",
+          "species": "africana"
+        },
+        "habitat": {
+          "type": "Savanna, Forest",
+          "regions": ["Africa"]
+        },
+        "diet": {
+          "type": "Herbivore",
+          "main_foods": ["Grass", "Leaves", "Fruits"]
+        },
+        "physical_characteristics": {
+          "average_height": "3 meters",
+          "average_weight": "6000 kilograms",
+          "color": "Gray"
+        },
+        "conservation_status": "Vulnerable"
+      },
+      {
+        "name": "Penguin",
+        "image": "data:image/jpeg;base64,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",
+        "scientific_name": "Aptenodytes forsteri",
+        "classification": {
+          "kingdom": "Animalia",
+          "phylum": "Chordata",
+          "class": "Aves",
+          "order": "Sphenisciformes",
+          "family": "Spheniscidae",
+          "genus": "Aptenodytes",
+          "species": "forsteri"
+        },
+        "habitat": {
+          "type": "Polar",
+          "regions": ["Antarctica"]
+        },
+        "diet": {
+          "type": "Carnivore",
+          "main_foods": ["Fish", "Krill", "Squid"]
+        },
+        "physical_characteristics": {
+          "average_height": "1.1 meters",
+          "average_weight": "30 kilograms",
+          "color": "Black and white"
+        },
+        "conservation_status": "Near Threatened"
+      },
+      {
+        "name": "Kangaroo",
+        "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxQTEhUTExMWFhUXGBcYFRYXGBYXFxgVFxcWFxgXFRcYHSggGBolHRcVITEiJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGxAQGi0lHyUvLS0tLS0rLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAEBQIDBgABB//EAEMQAAEDAgQDBQUGBAQEBwAAAAEAAhEDIQQSMUEFUWETInGBkQYyobHBFEJS0eHwIzNyggcVYvFjc6KyFiQ0Q1OSwv/EABkBAAMBAQEAAAAAAAAAAAAAAAECAwAEBf/EACURAAICAgICAgIDAQAAAAAAAAABAhESIQMxIkEyURNhBEKRQ//aAAwDAQACEQMRAD8A+Pkq+jTkK5mHlEtowLKaNQIKUKeSQi+xkKynShK2YWOw5XMowLpxlCspYPMlXIatiH7MpBi0dXAABKnYYyqRlYWqB20lNtFHUcOr3YXdazUKalFeMpJt9mnZc/DQjkjYittFXdiiG04XFqXsKAXU7qNShZM8PQkomrg0rlRRKzOigoPpp/UwcDRUs4fN1lNGcBVQoItlBHtwkFFHBxeEkuQdQENTDqdGimZoSraOFQfIZQFhw6CxFGCtT9jslPEaEJoTtgnCkJDSUH00yp0FRiKapnsi1oAc1eZUQ9mi9NNNkBIEheq3s1yNmo0P2UgL0YcwFo24HovRgpsoxmUcDOUqJzI1+EkJ1U4TaYVNPCmYU3MDhQjOEMp1hMHATFuBG4TXCYKQpSmNGAhr4a0Qh28L3haurgI2XpwvdVIzpGwMZ9ivojWYK2ie1cMGsc/KXZQTDRJMCYHVK8Dx2i8/y6rY1IaHgeIYS4eibNsZQoGPD4QlfClbOkynUaCxzXDm0gqmrwy+iXMOOjEnBlQODMxC2Z4XvCV8QqU8PJfc/hCeM76EcATB8NgaI4cPVPsnUq4h1Ss61L3WN2zTJjwFp5u6LV0cIpczadFuKKaMlX4dMWVYwUArYvwPRBYvBKaboetmRp0JcmdTDd1HUOH3mEYcLZLJjQRlm4JFUMHcWTZ+EhW4bDXQcg4gVbBd2YWax2GlfQ6+F7qy9fCXKfiexOVGV+zQh6+FWorYLohquEVstkHHRmnYVRq4ZaT/AC9V1sAnz2BQ0Zr7MuWh+wL1b8hvxmyNKF5Sw15CKexW4Zl1KMqHcdk2YcEKVHhg1hGilyV9Iwke3Y9a2K8RgeQRmBwpaEzpsBU3tEJWjRSQHiKKCrgJmWyEtxNAlZtgl+ivDAyh8Z7Mtn7RQhjj74FoPMcgVdSMGE2wGJyzIlpEOHMJoy+xU2jN8c4I51E4uh/DxVG5LbCq0ateND4qn2a9rKWJyseMlQwCDYZuQT+sHUXl4BfSdIcCQAZBEOC+d+02CbTogsYxrwSWviHzM2Itrpqqp5aGkq2jc4zidJmYSJaYIFyvnfEaf2vEto0pOcxOuUSczz5XXnC8PVvUqkPLyS6Zkl15kbXK1PsPhB29V8DPlAEfdBNz5qqg4bJOd6NNguGspU2UqYhjAGtHQbnmTr5otlFENYvSuaW3ZaOtAtRiEq0ZTKo1DvCKjozlQvFBXsw9laGXRFNqnKJSEhXWwq8w2HumtWnZUsbCmynshVp2SbEYWVoXCQgK1O6oiUtiN2EQ78Gnz6apdSCNi4isYQQhqmETx9Kyo7GyVMehR9j6Lk57ILkbZqPAUZhWSZQzGTdGUU1E7GDYUag5KDSpv0WS2Zy0X4VyvcEuoVIKOdVTNCqRzSoFkqt1RQZXugZMrqULoujRUM10Vh33CCiZugHj+IdRpGqxrXOpNdUyuzFvdG4aCXai3xC+Ze2fEqtVrKz2hnaC7RMCI0zAHKdRIG6+w0KfaVntFiaTmg8iSDy6fBfHf8QaWVxDi55a7KTtIifD9F0Rj5JAvxYlwHtJiKDe0pgOPuixMCYkga7r6T7CvGZ2YQ97GvjQEXvG2otsvnXsvg3VqgpsMEgH+3UzC+icNp5cS2DLW/w2k7xJMHe5C6JxuDs51KpI171W9c+oo5pXDR0ZHFeVGwol115iH2VIrQknsiFY0oJtRSNZJNFeN7C6z0IXqD6yi9yhRZyCWvsha11Y19lCU9UTspVMqdV6pJQkMiVV6iNEJWqKxlZLQ9lsrlDMuWNo9o1e74K6hUlK8FV75bzCPY0hVRxZDEVLKyk+wHNAU3bIlg+BTmsurWXtOtKi4TdVRBWktgTCAbqFRt12ZQe5KkNZfTR9MgBAUSrs5dDWi5sE6QGxnwV38Rz9hA+pXzr/ABj9nXVaza1FjnB5GYtbOUixzRtoZK+kYbKwinI69TuheNm4aOUwNNtlW2loZR3s+aex2BGCp1Hlh7RwIptPvRcS78IubalHYTjRFRr3iA05YAsJnQLuKdxwPeJnKcuUtIMzbc39HbpJ9lljmH13nMSJOk2PoqKbkqZNwUXaPpFLHMqtljgR026EbK1hXx/C46o1xyOc2o0xI0InfYrR8P8AbGsyBWYHj8TbO8xoUj4X6NkbarUuouqIbDY1lZudhkfvVePq3hJVGIurLypUVOLp7yq2ulaUQxbLRWur3VbIF4AOqnnSqA+bChUVlR8IQOtKqxNV2yDjRk7Ls0ryohaNQyvataNVNwHUwbFG66k5U1a4uh6byTIKKgHMZ51yX5ivUcAZhuDaM+ZOcWz+GCAltBgaAmj8UOwjeVRJHMwPBsMydFKpWJMBVtBAlRY+4J3SjphVOsRup0617oB7+/5wiIifBazB9BwJ8FVVdLrIahUOnqiqOt0MjWW0hCP4XTmqzx+iXusiuHVf4jP6gqRexRriuFOBLhqLylnEaNT+adAD4wJExHTRbitTkGNUixVOSSW+6LDkDM+qpKNFIzs+e4rDvf38pY0xGYazH3YBGunU2Qpwcz0FvDW3r8Vp8RVa9x7k7h2uRwvM6AyTZC1cM512COdovq2ekbqdtOylWqPm3EsM9rszRYRIvf8AVRDpEj9+K0HEqWV7s0iYsRFtNt7JRWogOi12zHh0XaurOR/RVgeJVMO4OYZadW7H8itrw/HtrAPYbbjcHcHqsRVpCOkSPlAlecPxLqNQOYb/AHhNnDkevyU+TjzWuwqVH0HG0iQvGYfKAToRqiMHi2VqQezQ6jcHcFcHfcOm3Rc7/YwqxL78lzX6KnG6qLnEU8yVswYKszyXGrZCYeezB3JUas8krVhsm2tBVWNrSCvHXvz+igcOS13ilrY16FFbEwVdgapUMbhgCEdgKQDXeCr6ET2d2i9Ubr1TsYZCrJCtLpgbIFn8yFbWdl9VhRiyrMNFzyVGIrZQRy+iCw7XZ7E30I5qWPaWvg35nqt6GDcP3pJ5yjyYZn6fFBYNt4jUBXYkmC3abJq1YCOGqTdX0auqX4JxGbkiMNVBKmghz6sgKFLEw4dFDEVAATOiVUMRLk9MB9P4lxgUm0nk2MAjnMX5plXpTBGhsfMLE8ZrB9LDjMO93RI6gEj1W3ZUAtsNOoXTHa2Z6qjL8awmSk7KLiS3+ozf4lU8KoTSBixADeZAEE/P0Tbj1ZjWZnuyg7bneB6LN8Q9omNpjsrGNrxrbx7wU3EqpaEftfQYCDmGuvwPhp8AsgKueo91gPdZ1AjRW8VqvxDjLu7rbUnef3uo0mZGgXgc49PiumEXRzSasoLI8bxp+yp1MPImLx8efyXjnSZjfb4/VXPeIi28/vmqoVhfAMWadQj7rokT/wBS1TAJlYrC1e806yefitDw7FEgtJkgn02XN/Ih/ZDQfoK4jTm4CDxNmhqbUHhzoOkJfjaUTOy42ygPgTMjrI8v2Ua+BJjZBYOneyMrOhrun5plYCitTAg6Tf8ANdHdMdVXTqdq3w0U61mT0hGt2FdCfFMkhFVauWmOtircHhQ+SdvyQ3EjaBoB6rLoB72zea5LMwXIBsaUakOh1iDlPi2yNdWAbMT+aTPk1ap5VHfFxKaOeBSzHX7vjAv8EKMQONyuaRoNuo2R1SpLWuIknZIcFSLne9ck2O9imPCWufLDOWW35T+yj0YedgWjMJJPwCo7cGoGm1v3Ki7FZXAtqEjRw2vpZLq1QuqPd6ItrVGSCeIS0kDbVKsNi3IyljC894XAh3XkVNmDaSANErW7QC/ENJpTNyl2FkEBaBlMBkKNAN2gRcnkBuU8QNirjfEnh2HZeGFriNoz8ucT+5W4417e4ahQYZ7R+WQG6dMztgvmvtSG4t7HYJ7azsha5rXtaTEkFoe5ufcd2dkn4dwHEVMlTF0nNogRToulrnuAgF4iQ2ZtvyjWydD1kjc4E4nibu2q/wAOj9xumZt9ByuL9ETiuBsAInSTvv8A7IigzEvFNzQAyAC0GYI0gC0flsj8TSMRUf8A23+QWcLdoMZVpmP4rhadAFxEkiQzcn6LJZKtTvOdl5DkNo9VtOLYYOdJDzoBYlx8BFh1+aUVOGkwJGaSYB9wWEXNzr6K2S6ZLF9oTUu61suLtfPkfgF7XxIAJJk+YursSPIgbnfaPILP4sm4zTMSNQMwkfAp1IWhpwjNUeHE2kQBC2mP/h5DI1aJ3LXCL+BWY4ZTaANIFv1+nimePq56BMk9mcp/pMEH1+ak3bHS0aWkzKZ6KritcaRdA4LFl1JpmSBB8oVjmFz1xSTWhuwzBthsxshasuzD8QPyR1KrkHibqbqjQ/SP1TqOhRTw/DlgI3AB8jdSxTC4GNICNxbgHuDbmw+A1QuLqlrS3QwCfAnZGTGijhlawtB11PnolPE2AnunQaK52MhkxvZL+IVw0C+o/wB1ktABcvVeK3tTzXIUAZ4hgD3EX7zp9VGq8vp5IghwE/1K+thwc5Zs8yN4k/kqMM4MDySDJEcgL38dFN2MuieDw2Uki+UX6/onWAotbma0kuIs3aRax8wlFGq4OBBnPby3TLEUsvfnWR5fsJzRQDWY4ZpaWwQL8xr8wqnV3OsdtCNvFF47GzTv3swN99G69UpdLqU0wZ3jeEqXkEKOJbo65jUI7hTL5p7sJGzCuFPvC8yfCJARlDEDJNx3dFTXYlaHtTEtLTC9wrhliBfunz1CyeFxkeCc4LFEgDo50zzsPqstiJkeL8Dp0mNdQdkFxkJt4CdfDlCtxntC6hh8LUDTWY/Myoxo/lVKf32ToIIlumhEXnSezXB24ig5tWXNdmMtIkRIBafVA1fZZrcO8NByw8guMmXxJgWFg2/QJJ+LR3cbyjsV4j28p06DcQw3Lw3s4aXaE5ntJBjSIIPVMeIe0FTuZ6ZbmaHsIzZHscJDhIB8Wm462J+ecU4IHUxAHcbD5OUwOY5ybfVTp8drYinRw7nSaDcpLoJdpE22AAV4ZWRk1RtKPEpJu6ZM1DBDRyie6fJUO4hTphwAzl4JL9yHXnrrCzpFUtDS6BfQBXEQAQC+RF7AF0tH78E0sV0Im2VdmTBI1a4lxi+th5FIvsRIZb3iSeZImDHhPqtK9oDsp1LPEXJiPIKOEINanI1Ib56A/FPHYrBMFoTzvPXcfJGcGALqlJ+lQGD/AKtj8lLitLs3OAG9vDb4z6pK/FkVWHTvdUa0BPZpuCUiC9hPukeY/YTRzXNfOoP7/NLaFq5dBggOtydB+c+ibPGYHvWi35Ln5KctB2nR7iKbcuYGTqg34jO5vUj8lU3HagaAx9Fe8tY9h5tt4iZJ+CVtDpHuFrDti65kn4fQBDYt9yTp3b8+6D56pXgOIZs5EwA5o9NfP6ptxKnIAGrRcc7R6wJQ7VBYrdWLXAH3dusoTiMZZdaCisUwPa3Zw/eqBxFTP3BdwBjl5Jl0IUZ/FchO1PIr1JkGjW4jHsDn6iZv52noltXEMDC12pAmNNVXx0xUlv3mhwj8JaD+aRjEkHNLbab+RBTQV0zPujYcAcQyoMoGQ0yB/pe9jSf+pvqi31AMODIzF7geoAF+hkhJeBYh7nH/AIlNoA27pYZ9WKzE4gim1jRJk3JsDUuJ5WAHkpO8qHSqNh+Bol7TpEv/AO1hS3D0y1gIm7stiReVdw3EuY0S4TLpjTYfRXcPpDISTbPmb4gGfojdAkrOxvED2mSQRoZvcW13Q9ach8LBe4XBsL5N9T+qJDBmECxOp0R7RGVifCgdo0PbLSNjHnKdcR4SWgAWEA3Ooi3xKa4ehTaxpcwFxnLN4A3VONxLXkgm7e7HgmqkLFG89hcP/wCTgQCWkadIvzuszxvCGhXdijUcGPpMBbDQzM0Qb6uNrTpfmtv7NQMNTjldKf8AEHhvaYR7QBM5qc6ZxctPRwkeMI8scod0dnFKpdHwzFsOLrANcY7SYAtruOWqDoDs8VnGhqZR1n6RHwWo4DwmtQp1n1aQY5wjUEhhu42kaiNVmuIuFJ9N7xLA6QRckzfxgbjkqx5I9Jk5Ql20bvF02iEvrnu90CZ0JmwCJfNRoe0gtIBnbKbghUUhJAA7smZ+Ks0mR6BsxjS5tPQCxV/BqObEU50DpPkrsNhTU6Ta3rCMwGDFOvTHUjzgopGsj7ZMAc09CPj+qwdcHtJnay+h+3FGGNfsNT1XzSnis9U8iYW9mXR9KwtLPTpunVgB8G/7lFV/cc0aAa+Kq4Z/6ZtzYx5OBFvUKRc7KaYHec207EXHnqPNciatlJC9mFFNrnHlPpdeYumTRBvnIgf3B5Pn3US3AmnTbcF5Ds0mRrYW/dkwrUs/dIiAyw/vzeHvwlk0nQ8ehHwrCtpBoNz3ieUGHH4NahuJVySMk3eTPOJBv4ym7qjHg1ScrQ10Wv3iAAB4CEjx2JLmtaJEQPK1/GEql9AZ66qxrCCf3yCUUQ2XOk90AgqD6pNUADM0nXkB9ELxQk5WstnOYGY7ujZHqY5EJ4it6Gn2gc3f/Zv5Lksyn8a8TYmzG3tJWJdR7NvefSZ4NAADvOSNeaQ/YXva0tDgXVCz3bAAAySfM7aFaSi3NSqw3L2YdBIPdBcwx17zXDzQ/DqTadMFpGasSAS1xAkhhcfFzYSZYoZq2WcEaaZBkOLWPbIBN2lxzCNdR5T0TN9MW925Y4tmRd2aDH+n4hCcN4ic5olha4Nyg7ZcwDwLHYz4BWCpTkOkZTYZuV40OkfIKNtsrWqPcVAbA5nvwDDGl07XJOVTPEOzpGmXTEkGNA53Z7f0uKC4qJpse0gj3WNvox2UkjawaP7jyUsSynkplpdnyUy+bgOfnfEamxBnwTO0qIvXQ3wdRsNdml19rGJk+s+ipOLmtAi4gk7SJt0CTYGu5pAmRLs3ItO/UT9VdjG1BMg9IB1MQir6JN6HxxcQ2QXNEC+mYEz0iEE6qCQ8EEk96Pn5oDhnDXuY8vdlz77gCQZ5aonB4B1Ehzi1w0IG+kX3sUz6oFWfXPYuqThAXWhzhztP6pxjaQq0v3skfs7XAwDXDSXxvYOP5Jh7NY0VGObNxf1Traxf0XWkpGU4/hmNd2GVpYQS9zidCCAAN+aw/tD7OtrkZXAloGRsQ0QPd6NK+uY/hzajiHCf0/3S2p7NN6hcU3zRl49HbFccl5dmKw7WMY2kIaYhrSADpYHmeqiMrRIE2ietuaXf4pF2D7BzWzmLjJtBbGUTzMn0T2rw4taHEw8tnL1IE/Elehw8jcU5dnFycdSaiVYBgDNCHOkgchYAk7KniFEupZxqx09baq+rTLWNAkudE/v19FPHnLScDv8APp8V1xpo55Whd7U47Ngyengfmsf7OcH+0DNuyPNt9+Y+q1XEKDThWh57pcJ8BeEywrKdKm2C0feAbuBrprZQ5ORRDErpioKVRoJOUtA8i0/mvODnMWuMOdObqN0ZWqw11RpEE5rfIoXDkh4hoAJExre4XFu2yrXQS9jRUZTGgJPiDEfBUf5iCasaZHdJl0CJ5BT4qQCagddgcC3wsI8sqS4dktziY/iTpYAOgHwn4JNuVltVRPiGI7Gm3RoJgA7gNAI8CXOHqljpDmzHeuwOMTA+kx4g8k09qmHs6YdLmknLa/eLnjwEOaPRCY/CACnhyAXgZg4WibvbN5kGZ6AbqkWqJyjtgtIiX8iS0dG3LrdQCPNLxhc1Z5JFpjkIENA8LBMmUogiTnzESIgF1xHk0eBKEkkulsWcb+E6D4dVlLti1eiH+U0Pxu9Fyl3vwv8AX9F4l8jYoYmh3HAGJpwXXtLmZSIEaCY5k80rx1Q5mtPdaGtAJBgAEXMbXMo/FVCQ0CwLmCmP9BsfAFuY+CH4pgGvexzXd7K13emXAie60ajKCIvNj4lbYzVIGxfET2z6hFnPALBu08jue4B/uuw+JBq1KbiC3vZNw6ZyuB5XAhC4VonKJILoa4zdwdIkEaiedoJ3XtejmGVgMsh+ePfDiXODNiGPMADoilWg5bGOJxDn0KeUWbTORhiz21XDN1Jykf3NVeE4n3YcJu2eoDIAn+lrf2VPiRe2gMjYE1srQR/Kc1r7bkAuqAXnVAYFhqUS+wh5ADjezRnI56k+aMdq2DkWw6cjWkATqM2pBGxHl6ItmOc0B15/FqLA2jf7v7KRYhrqbWyQJFmnXcabX5o/AYgnCVcwnsqrTe9i0ix8U+Cog0N28TbBc6J1O2XoOQ0Kvbj2ub3oho+fPqs2HOaS1wyucAYda2oBkd0wemq8wmGeSQCZLgIsRqG2NtC5qH43QEfcsBbhtMDenIHVxJHzCyXCuJvo47fJLJF4uB+blr8Y7JhWMEiKcC22WB9PVfOuKUicQdLlnObkRqIsjLxLW6SR9mw7g9ocN5+eipxL8s+E/RfNOG+19XDZ2ObmAcTJcADLvuzfcnyWjf7V0K9PMHZTEEHYxcdYSymqKQe9jeo+m4CQ1wFxIBjrfdKMfBcTGosfgluG4wyHRUa4QZG4BGscpSLH+1DGmC4EgEzP3YmfkkjyK6KSWrGmKgGeRnz0MdNPRIuL40VHtptk5YkiIMCI8brN8f8AaUuBaLBxMmYnpOy0XsVwcmgKzyB2ju7ebaAz1g36rrjyHM4tsH45V/h02fhkm8cgDKGwvFXkNDgNIMBpN9/PVDe3AeMQ2m3WQL2HeIHpJ+CroYeMO4ueSRUghgDbssRLhMTU5bBDl5cX0TUWzQcQMUGNc7uvcMrh3SDBIn4eqU9s/tIc45WmHA3hw08r+iaNxjKuEjshmEva1xcSSwCfdLT7pPnCXGuKtLOyg0ut3j2nepgxZoeSXDxJhczm/ZZxrY1xdRhFXNcZA4QeQAP/AGg+SG4DiBVaxgbEl4M8yHev6FG4ZgfRpu7FsCWvu4HK5rhABJmJU8NXZSpMsWOdmGsxrNoHMgeIUZcvi17LYW0zzi2Lmo2mTFMg0iSYyhpLc3O4GyA49WAdSeNXw5hGgLXkN9A0WRLy12HqODSS9rIkd77zql5MEgi8/ePgqcJldQo5yO0aaumgBOYDX8JHqli0lYZJy0KeLvcO0DTAaQ4cskNA25hA0JNNzxc5RAImxe1og67PHmPIl+IY4AZYLwQ7cQ1xfETOgYOqpw1Rv8RkZDExtAy909Yc+/rCsnSItWwOD+3n8l6q/s9P/ierVy35QfjNNiDTqVZBIYwOI5HuZQOcBB4sMbTLB3ntLDTeXQ4ZS4tEjSc7deSF/wAyAYWRpJLzqb6eE9Nt17SqEtOpD22m4lpJENB/1Dzyota0Fy2C0qIbkccoALg0l0AODYu42gEg9YPNdwrtuzFMFwEntCSIDLOzDuyPeAEdI1QzaTqhcCSIu3cQLWHP/eOWh4dhyHOdLQwkOsbXmBbUQ8W2RdRWwQeyHEsO1zTkLi77wIMAinVBLSPukvHhEbCQuAcIczsnyGNBqHKQHEuIc1oB2HuGBzhaL7C1zahY2RaWg3L5+6NS2w9dlS/HtDqclrYa0wLu1OWwmABGqVTqIbt2xa3g7KgLnBoDO4WmSc+W4F9nGZ3jzBHBcE9jKgAlhIaCW2dkIOY7mL+oGygziNMGqRY5iBA+7APhmJlNmY2zWC3dBvpLwZ9APmmU3QjaFeGwTwHPqNa6SSCDMEtuY0L7CB8lChj6NBwc9r/4eXu0gCHHvQIdGU93U8wmeJpEYf8Ahmc2Z2X8JmQDbwi36i4Fw7Nhcwd50kABxkG19B73x5zBjN5WzNUPf/GYqtaXU30crSMjjmJbmLZJ56WPMa7C4PEMq1Q8XMta03gy5vecOYbmtzQOH4W11MO7PuucHXJIF4MtJ17p168ymPCqzGVGtDWjvDURcBzgfMeOp5pOXky6GgxHxTBOqYiwD8z3RBy5Wh0SQ46W1vqjKfs4xjblzHhodmLu673gBBt+G+hhyLq1YqQCDUhsSDDrkuB5atgi4nVWYpjnU294iHARedAyTuIzAeMTKyWtC2Z7FcKGZxY4HuiA1xBzDJIAN/dzR9UudhjJYIbDu7mkai4frmmPjsn2MoEVe85wGaARq24zHvbXM21N9Vc4NpE5w5rZkF+U790A7DfpJRoXJmRqcKc0EVGi/eB10GaDHPS3ML6DjuKGnhaPY0sxpDK1p93MLlxiM0ATl1JgWSLHGG5wMxmJAG1+87xHIeKvo1XBji0Em2YugHUEWOh6rZNsZOSF3tH21epTriM4IEQWzEnmYGYEeYR+HmrTpOIyWGdrwC0gVHEggAnNcSOt0dg65q03NjvMmM1yQCASY3iD5KoPbJbIIaJiQbzFo31P6pZyb0/Q90TxNNtLsSwNAaTctEkd0kNgwJv+Sk7CinUgSRUgifuzcAHkIIKr45Sa7sxclrZA693KSINx+asxmLLqVPObslj4OxkjoOXSeiC6GyGZcMjmNaAJFhoHD9/FZr2jxEVsslsUwdJBBzF7cs3kDQdFoBixlY4ReJIt4E8zYJHxdwNdzy1pgAQTpIiQD0JCjCPlZXkl4gOIrvbXY1gmmwbdS5riRJItlv08VXQa7ISXkBpHfNwczXNnyyxqi2VwHtA94kSRYCdfG8eijxBvcqMEAjLrpmzGAeYi/mU7+hI9WAvxIboe82Zd42N9BvEeKFxtVu2XNbMd5zSG6SZvqr6lMR34AJADdbg3zc9v0S/EsGZ8M07xBN5tBvre3n5pkkK2d23X4heKj/L6fX0H5rxU/GhbkXYQOLXuDm5S4WJdqJ1t+7K/E4zsy1wIjWxk5tD4WCDwFFrmnKbn3hGptcnY9UezhzH90kNIaee197blCT2RTshQxRcQ1wyuNwdJInKOmpWhotLWDU5TedgRFjGkAeiTcLwkOA1A1J1tE69fgneIxAEMGkjw135aKPI7eKL8fHrIopVXNc53e++AW7ETeYsdPguxz2jvBpLgGgmwk5QNtyZkKbseXZmaS4Ok+kC+kfJB4l/3HAuM5tO7lNhl9finUXQJE3NYajgRAcA7zHzKuwLcgOpzAiTNhyieajio7YtjUNAsYgxMQp8UPZZIOrmmDMEbttcIr0hsLTkNMHiGua8vMxBJvGbKQBfwCrouL4ED3QS7QA3uSIj3tr6ILhrS1hzPls95smJB0uFXU4scxgkDlmJDhp4BD20CSqKseYJrA4uDnHKCJ2kg3Ai+vNdgMOC9r3w4ky1w3i19hED4oPA8QaQYF9+ckJhgCQBOgIUXNq9DLj6oWYt5a9sa2kGbNbfnzHwC6pxE0wBME7DvE2BlvIHUnlClxN1N9W5gtmw3XtVjZa87WEeHy/RWTpWyL45W6PMbVrB1QMIvecwieoEwbQbboCs50AEZ7tJFyDAA70mNhpGyaiu1jZAmd9z4qFOtOYhpjle+kIRlv9DLitEsVUAYHRp70TpfkbAlxuh6+MEhoGUEh45nyOhm/kVLH49ohsCbSBpb9UFUxBMhrQbGZAnym402WVpdgfG1qwvhmN/iZQ2JBBsRMTLnDbpzlV47HdkXjuCAQA6wuDeecCPMeKhwd5aQ4tuZAaetlT7SYkktMAibyJcDpy/cBGLTlQ6VQsJdjSzsu7mJaTmPlY+W8I7A12vbLhLSIcDsRvHjeUqoV2lrcwIiGXgXPPrOy9rM7LK0gkOzFxnfaLX8OqfVaBB7tluJr5W+Dg4ACwgAiJ2S/wC1S4ta0nLAM6kBrTbzk7K0EGnmguIJaRN4ixQdJ7i+Wvjw6RY9SlilsaTuglvduNTNp06j1+Cox+LzMeLSY9QRv+9F5xGB35uCIaOW/wAfmhsfWa9ncAtr4kD9+SzSbs3RVXr5w2dReAYk6XsqMVVLu+HXgA6ecj96BUVILy8nLuGz0uqiAQQ31/JUUUti2wzs3f8AyO9P1XqC734x6rk1hHVH+Sf6nfMqvCau8Fy5IiXsaYPQ+DfqvG6ny+a5cpS7OmHwK63veZ+qKH8ny/8A0uXK3oSfRdiPfb/SPkUJx3Wl5f8AcuXKUfmjo/5M7iH8o+Lvmhh/LZ4fkuXJZ9keb4k+DfzKn9vyWswXuu8vouXLm5e/8Lfx/gjO8R/mO8Ewb7rfL5Lly6P6omvkwfEaeaupfyh4hcuSQChNi/eP73TfAfU/NcuVJ/ERdljt0r4l/wC3/wAz6rlylwfIMviy3h+h/wCZ9Wo7G+7/AGj5Lly6fRGPQJgvdd++SV8O99/j9Vy5JxeynJ8UQx+h8D9UvoaP/pb8ly5V+xBdW94+BUsN9F6uT+gLsrXLlywT/9k=",
+        "scientific_name": "Macropus rufus",
+        "classification": {
+          "kingdom": "Animalia",
+          "phylum": "Chordata",
+          "class": "Mammalia",
+          "order": "Diprotodontia",
+          "family": "Macropodidae",
+          "genus": "Macropus",
+          "species": "rufus"
+        },
+        "habitat": {
+          "type": "Grassland",
+          "regions": ["Australia"]
+        },
+        "diet": {
+          "type": "Herbivore",
+          "main_foods": ["Grass", "Leaves"]
+        },
+        "physical_characteristics": {
+          "average_height": "1.6 meters",
+          "average_weight": "90 kilograms",
+          "color": "Reddish-brown"
+        },
+        "conservation_status": "Least Concern"
+      },
+      {
+        "name": "Blue Whale",
+       "image":" https://cdn.prod.website-files.com/665f17d0fb4bfc1e811460d3/665f17d0fb4bfc1e811468bf_5.jpg",
+        "scientific_name": "Balaenoptera musculus",
+        "classification": {
+          "kingdom": "Animalia",
+          "phylum": "Chordata",
+          "class": "Mammalia",
+          "order": "Cetacea",
+          "family": "Balaenopteridae",
+          "genus": "Balaenoptera",
+          "species": "musculus"
+        },
+        "habitat": {
+          "type": "Ocean",
+          "regions": ["Worldwide"]
+        },
+        "diet": {
+          "type": "Carnivore",
+          "main_foods": ["Krill"]
+        },
+        "physical_characteristics": {
+          "average_length": "25 meters",
+          "average_weight": "150,000 kilograms",
+          "color": "Blue-gray"
+        },
+        "conservation_status": "Endangered"
+      }
+    ]
+  }
+  

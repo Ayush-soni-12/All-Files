@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/animal.css">
+</head>
+<body>
+<h1> Details of <%= data.name %></h1>
+
+<p><strong>Scientific Name:</strong> <%= data.scientific_name %></p>
+<p><strong>Classification:</strong></p>
+<ul>
+    <li>Kingdom: <%= data.classification.kingdom %></li>
+    <li>Phylum: <%= data.classification.phylum %></li>
+    <li>Class: <%= data.classification.class %></li>
+    <li>Order: <%= data.classification.order %></li>
+    <li>Family: <%= data.classification.family %></li>
+    <li>Genus: <%= data.classification.genus %></li>
+    <li>Species: <%= data.classification.species %></li>
+</ul>
+<p><strong>Habitat:</strong> <%= data.habitat.type %> in <%= data.habitat.regions.join(', ') %></p>
+<p><strong>Diet:</strong> <%= data.diet.type %> (Main foods: <%= data.diet.main_foods.join(', ') %>)</p>
+<p><strong>Physical Characteristics:</strong></p>
+<ul>
+    <li>Average Height: <%= data.physical_characteristics.average_height %></li>
+    <li>Average Length: <%= data.physical_characteristics.average_length %></li>
+    <li>Average Weight: <%= data.physical_characteristics.average_weight %></li>
+    <li>Color: <%= data.physical_characteristics.color %></li>
+</ul>
+<p><strong>Conservation Status:</strong> <%= data.conservation_status %></p>
+
+<button><a href="http://localhost:8000/search">Go back</a></button>
+</body>
+</html>
