@@ -6,11 +6,11 @@
     border: 2px solid black;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;/* main axis ke according work krata hai */
-    /*  flex wrap : wrap cross axis ke according work krta hai
-    but jo wrap reverse hota hai bo cross axis ka jo reverse hota hai uske according work karta hai*/
-    /*align-items:center; cross axis ke according work krta hai*/
-    align-content: flex-start; /* cross axis ke according work krta hai*/
+     /* justify-content: space-evenly;main axis ke according work krata hai */
+     /* flex wrap : wrap cross axis ke according work krta hai
+    but jo wrap reverse hota hai bo cross axis ka jo reverse hota hai uske according work karta hai */
+    /* align-items:center; cross axis ke according work krta hai */
+    /* align-content: flex-start; cross axis ke according work krta hai */
   /* align self ka use individual box ke liya kiya jata hai aur  iski priority hmesa high hoti hai baki sab se 
   ye cross axis ke according work krta hai
   */
@@ -21,8 +21,8 @@ h1{
     text-align: center;
 }
 #orange{
-    align-self: flex-start;
-     flex-basis: 400px;   /*it set the initial main size  according to main axis agr space hoga to hum apne according size chota ya phir bada kr skte hai*/
+    align-self: center;
+     /* flex-basis: 400px;   it set the initial main size  according to main axis agr space hoga to hum apne according size chota ya phir bada kr skte hai */
      /* flex grow - it specifies how much of the flex container remaining space should be assigned to the flex item's main size  */
      /* flex shrink - it sets the flex shrink factor of a flex item   ye jabhi work krta hai tab overflow ki condition ajaye yani ki jab container ka size small ho jaye aur space na bacaha ho */
      /* flex-shrink: 3; */

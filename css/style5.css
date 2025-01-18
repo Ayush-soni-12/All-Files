@@ -3,20 +3,20 @@
     height: 300px;
     background-color: yellow;
     display: grid;
-    /* grid-template-rows: 50px 50px 50px 50px 50px ;
-    grid-template-columns: 100px 100px 100px ; */
+    /* grid-template-rows: 50px 50px 50px 50px 50px ; */
+    /* grid-template-columns: 100px 100px 100px ; */
     /* agr hum kebal auto lik de to space equally divide ho jaygi  */
     /* repeat ka use krke hum space ko equally divide kr skte hai  */
-    grid-template-rows: repeat(5,1fr);
-    grid-template-columns: repeat(4,1fr);
+    /* grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr); */
     /* grid gaps............... */
     /* row-gap: 10px;
     column-gap: 10px; */
-    grid-gap: 10px 20px;
+    /* grid-gap: 10px 20px; */
 
-   justify-items: center;
+   /* justify-items: center; */
    /* sare container par work krta hai   aur horizontal work krta hai */
-    align-items: start;
+    /* align-items: start; */
     /* sare container par work krta hai aur vertical work krta hai  */
 }
 .item{
@@ -35,8 +35,8 @@
      /* grid-column: 1/3; */
      /* same as grid row */
 
-     justify-self: end;
+     /* justify-self: end; */
      /* individual par work krta hai  aur horizontal work krta hai  */
            
-     align-self: center;
+     /* align-self: center; */
     } /* individual par work krta hai  aur vertical  work krta hai  */

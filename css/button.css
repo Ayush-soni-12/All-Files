@@ -1,0 +1,107 @@
+/* General Reset */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e1e2f, #121212);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* General Button Styles */
+  .button {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #444;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.4s ease;
+  }
+  
+  /* 1. Slide Outline Button */
+  .outline-slide {
+    border-color: #444;
+    transition: border-color 0.3s, transform 0.3s;
+  }
+  
+  .outline-slide::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border: 2px solid #00ffff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease-out;
+  }
+  
+  .outline-slide:hover::before {
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+  
+  /* 2. Glowing Outline Button */
+  .outline-glow {
+    border-color: transparent;
+    box-shadow: 0 0 0 2px #00ffff, 0 0 20px #00ffff;
+  }
+  
+  .outline-glow:hover {
+    box-shadow: 0 0 5px #00ffff, 0 0 15px #00ffff, 0 0 30px #00ffff;
+  }
+  
+  /* 3. Double Border Button */
+  .outline-double {
+    border: 2px solid transparent;
+    background: linear-gradient(90deg, #1e1e2f, #1e1e2f) padding-box,
+                linear-gradient(90deg, #ff00ff, #00ffff) border-box;
+  }
+  
+  .outline-double:hover {
+    background: linear-gradient(90deg, #1e1e2f, #1e1e2f) padding-box,
+                linear-gradient(90deg, #00ffff, #ff00ff) border-box;
+  }
+  
+  /* 4. Hover Fill Button */
+  .outline-hover-fill {
+    border: 2px solid #ff00ff;
+    background: transparent;
+    color: #fff;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .outline-hover-fill::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #ff00ff, #00ffff);
+    z-index: -1;
+    transition: left 0.4s;
+  }
+  
+  .outline-hover-fill:hover::before {
+    left: 0;
+  }
+  
+  .outline-hover-fill:hover {
+    color: #000;
+  }
+  

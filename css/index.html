@@ -20,7 +20,60 @@
   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, mollitia deleniti error unde repellat quo nisi animi magnam reiciendis labore officiis! Natus alias molestias, at deserunt tempore qui nostrum cum.
   Aliquid consequatur perspiciatis voluptatem, provident dolorem ab necessitatibus error quia deserunt, numquam atque at in delectus natus perferendis vero illum ex sit maiores et aliquam inventore! Molestiae blanditiis veniam nemo?</p>
    -->
-  <div></div>
-  <div class="div"></div>
+  <!-- <div></div>
+  <div class="div"></div> -->
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>align-items vs align-content</title>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;/* Necessary for align-content to work */
+      height: 200px;
+      border: 2px solid black;
+      margin-bottom: 20px;
+    }
+
+    .box {
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+      background-color: lightblue;
+      border: 1px solid blue;
+    }
+
+    /* For align-items */
+    .align-items-example {
+      align-items: center; /* Aligns items vertically to the center */
+    }
+
+    /* For align-content */
+    .align-content-example {
+      align-content: space-between; /* Distributes rows evenly */
+    }
+  </style>
+</head>
+<body>
+  <h2>align-items Example</h2>
+  <div class="container align-items-example">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+  </div>
+
+  <h2>align-content Example</h2>
+  <div class="container align-content-example">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+  </div>
+</body>
+</html>
+
 </body>
 </html>

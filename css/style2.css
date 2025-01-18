@@ -1,11 +1,11 @@
-/* /* alpha mans - set the opacity for a color ranges from 0 to 1 
-.div{
+ /* alpha mans - set the opacity for a color ranges from 0 to 1  */
+/* .div{
     height: 100px;
     width: 100px;
     background-color: rgba(250,0,0,1);
     margin: auto;
     margin-top: 10px;
-    transition: margin-top 2s linear 0.2s;
+    transition: margin-top 2s linear 1s;
     
 
 }
@@ -19,7 +19,7 @@
 /* Transition property  */
 /* .div:hover{
     margin-top: 400px;
-} */ 
+}  */ 
 
 
 
@@ -50,13 +50,12 @@ div:nth-of-type(3n){
 }
 #two{
     transform: scale(0.5);
-    /* hum x axis aur y axis do taraf se scale kr skte hai 
-    scale(x,y), scale(x),scale(y)
-    */
-}
+     /* hum x axis aur y axis do taraf se scale kr skte hai  */
+    /* scale(x,y), scale(x),scale(y) */
+ }
 
-#three{
-    transform: translate(100px,100px);
+#three{ 
+    transform: translate(100px,100px); 
     /* translate ki help se hum div ko move kra skte hai 
     hum chaie to kebal x axis ya phir y axis me bhi move kra skte hai 
     */
